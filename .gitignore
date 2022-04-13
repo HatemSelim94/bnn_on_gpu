@@ -31,3 +31,5 @@
 *.out
 *.app
 bnn_cpu_batch3/batch_par_gpu
+
+build/
