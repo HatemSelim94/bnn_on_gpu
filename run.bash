@@ -1,3 +1,4 @@
+cd fashion_profile
 rm -r build
 mkdir build
 rm main
