@@ -1,3 +1,12 @@
+# Run on Linux
+- Ensure that you have cuda installed by running 
+```
+nvcc --version
+```
+- Run run.bash
+```
+bash run.bash
+```
 # bnn_on_gpu
 - First set the path to the CUDA Runtime Library of your system in ```Makefile``` 
 (currently commented out: the path on my personal PC on line 5, and the path on the server on line 7)
@@ -36,3 +45,4 @@ in ```cuda_kernel.cu```:
 $ make
 $ fashion_prof.o
 ```
+
